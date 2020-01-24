@@ -10,7 +10,7 @@ def load_library(file_path)
     english = description[0]
     japanese = description[1]
     hash["get_meaning"][japanese] = meaning
-    hash["get_emoticon"][english] = des
+    hash["get_emoticon"][english] = japanese
   end
   return hash
 end
