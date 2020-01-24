@@ -5,8 +5,7 @@ def load_library(file_path)
   library = YAML.load_file(file_path)
   get_meaning = []
   get_meaning =  library.keys
-end
-return get_meaning
+  return get_meaning
 end
 
 def get_japanese_emoticon
