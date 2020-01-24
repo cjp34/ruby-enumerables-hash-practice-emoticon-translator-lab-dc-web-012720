@@ -7,8 +7,8 @@ def load_library(file_path)
           "get_emoticon" => {}
          }
   library.each do |meaning, description|
-    english = description[0]
-    japanese = description[1]
+    english = description
+    japanese = description
     binding.pry
   end
   return hash
