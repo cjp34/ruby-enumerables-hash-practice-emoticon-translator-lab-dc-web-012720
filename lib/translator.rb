@@ -4,7 +4,6 @@ require "yaml"
 def load_library(file_path)
   library = YAML.load_file(file_path)
   get_meaning = {}
-  get_meaning =  library.each
   return get_meaning
 end
 
