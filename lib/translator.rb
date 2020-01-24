@@ -9,7 +9,7 @@ def load_library(file_path)
   library.each do |meaning, description|
     english = description
     japanese = description
-    hash"get
+    hash["get_meaning"][japanese]
   end
   return hash
 end
