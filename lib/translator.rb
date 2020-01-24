@@ -3,8 +3,7 @@ require "yaml"
 
 def load_library(file_path)
   library = YAML.load_file(file_path)
-  get_meaning = library.each {meaning, value}
-  return get_meaning
+  return library.each {meaning, value}
 end
 
 def get_japanese_emoticon
