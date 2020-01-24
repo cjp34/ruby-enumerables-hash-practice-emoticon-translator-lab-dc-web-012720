@@ -3,7 +3,7 @@ require "yaml"
 
 def load_library(file_path)
   library = YAML.load_file(file_path)
-  hash = {"get_meaning" => {library[0]},
+  hash = {"get_meaning" => {},
           "get_emoticon" => {}
          }
   return hash
