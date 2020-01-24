@@ -9,8 +9,8 @@ def load_library(file_path)
   library.each do |meaning, description|
     english = description[0]
     japanese = description[1]
-    hash["get_meaning"][japanese] = description
-    hash["get_emoticon"][english] = description
+    hash["get_meaning"][japanese] = meaning
+    hash["get_emoticon"][english] = des
   end
   return hash
 end
