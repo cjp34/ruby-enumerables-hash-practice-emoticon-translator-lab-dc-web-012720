@@ -20,6 +20,7 @@ def get_japanese_emoticon(file_path, emoticon)
   smiley = library["get_emoticon"][emoticon]
   if smiley
     smiley
+  end
 end
 
 def get_english_meaning
