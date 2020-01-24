@@ -6,7 +6,7 @@ def load_library(file_path)
   hash = {"get_meaning" => {},
           "get_emoticon" => {}
          }
-  library.each do |
+  library.each do |meaning, de
   return hash
 end
 
